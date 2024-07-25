@@ -1,0 +1,46 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.headingmusic {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+/* Optional CSS to style the iframe */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+    border: 1px solid #ccc;
+    /* Optional: Border around iframe container */
+    border-radius: 8px;
+    /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: Box shadow for better aesthetics */
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 767px) {
+    .iframe-container {
+        padding-top: 75%;
+        /* 4:3 Aspect Ratio for mobile devices */
+    }
+}
+
+@media (min-width: 768px) {
+    .iframe-container {
+        padding-top: 56.25%;
+        /* 16:9 Aspect Ratio for larger screens */
+    }
+}

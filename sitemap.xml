@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"><!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <url>
+    <loc>
+			https://www.wildanakpn.xyz/
+		</loc>
+    <loc>
+			https://www.wildanakpn.xyz/
+		</loc>
+    <lastmod>
+			2023-06-08
+		</lastmod>
+    <priority>
+			1.0
+		</priority>
+    <lastmod>
+			2024-06-10T11:46:06+00:00
+		</lastmod>
+  </url>
+  <users>
+    <user>
+			0283F7D17F93E2BF6358A0DEA6977958
+		</user>
+  </users>
+</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.wildanakpn.xyz
+		</loc>
+    <lastmod>2024-06-27
+		</lastmod>
+    <priority>1.0
+		</priority>
+  </url>
+  <url>
+    <loc>https://www.wildanakpn.xyz/#about
+		</loc>
+    <lastmod>2024-06-27
+		</lastmod>
+    <priority>0.8
+		</priority>
+  </url><!-- Add more URLs for each page on your website -->
+</urlset>
+<rss version="2.0">
+  <channel>
+    <title>Wildan Akbar Putra Nugraha | IT Product Designer Customer-Centric or UI/UX Designer
+		</title>
+    <link>https://www.wildanakpn.xyz
+		</link>
+    <description>Wildan Akbar Putra Nugraha | IT Product Designer Customer-Centric or UI/UX Designer
+		</description>
+    <language>en-us
+		</language>
+    <item>
+      <title>Wildan Akbar Putra Nugraha | IT Product Designer Customer-Centric or UI/UX Designer
+			</title>
+      <link>https://www.wildanakpn.xyz
+			</link>
+      <description>Wildan Akbar Putra Nugraha | IT Product Designer Customer-Centric or UI/UX Designer
+			</description>
+      <pubDate>Thu, 27 Jun 2024 12:00:00 GMT
+			</pubDate>
+    </item>
+    <item>
+      <title>Wildan Akbar Putra Nugraha | IT Product Designer Customer-Centric or UI/UX Designer
+			</title>
+      <link>https://www.wildanakpn.xyz/#about
+			</link>
+      <description>Wildan Akbar Putra Nugraha | IT Product Designer Customer-Centric or UI/UX Designer
+			</description>
+      <pubDate>Thu, 27 Jun 2024 12:00:00 GMT
+			</pubDate>
+    </item><!-- Add more items for each article or post -->
+  </channel>
+</rss>
