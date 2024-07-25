@@ -1,4 +1,4 @@
-# Wildan Portfolio Website
+# Akbar Putra Portfolio Website
 # Link: https://www.akbarputra.xyz/
 
 ## Project Overview
@@ -24,7 +24,7 @@ This project is a simple static website built using HTML, CSS, and JavaScript. T
 1. Clone the repository:
 
    ```bash
-   https://github.com/wildanakpn/wildanakpn.git
+   https://github.com/akbarputra37/akbarputra/.git
 
 
 #-------------------------------------------#
