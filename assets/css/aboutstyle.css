@@ -1,0 +1,128 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.headingmusic {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+/* Optional CSS to style the iframe */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+    border: 1px solid #ccc;
+    /* Optional: Border around iframe container */
+    border-radius: 8px;
+    /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: Box shadow for better aesthetics */
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 767px) {
+    .iframe-container {
+        padding-top: 75%;
+        /* 4:3 Aspect Ratio for mobile devices */
+    }
+}
+
+@media (min-width: 768px) {
+    .iframe-container {
+        padding-top: 56.25%;
+        /* 16:9 Aspect Ratio for larger screens */
+    }
+}
+
+/* Card Aboutme */
+.cardabout-img-top {
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardabout {
+    padding: 1.5em 0.5em 0.5em;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardabout-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Card Aboutme */
+
+.credential-section {
+    background-color: #77BAFF;
+    background: #77BAFF;
+    border-radius: 30px;
+    --smooth-corners: 4;
+    padding: 29px;
+}
+
+
+/* Gallery Credential */
+
+.container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    background-color: #77BAFF;
+    color: #77BAFF;
+}
+
+.container>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description {
+    display: none;
+    position: absolute;
+}
+
+img {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.container>div:hover {
+    transform: scale(1.1);
+}
+
+.container>div:hover .description {
+    display: block;
+    text-align: center;
+}
+
+.container>div:hover img {
+    opacity: 0.7;
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #77BAFF;
+}
+
+
+/* Gallery Credential */
